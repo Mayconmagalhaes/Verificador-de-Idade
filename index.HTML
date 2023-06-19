@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">  <!-- define a ligua de origem e carregamento da pagina -->
+
+    <head> <!-- Cabeça do código, carrega os recursos a serem exibidos -->
+
+        <!-- facilita a utilização de simbolos e letras para inscrição de texto -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- carrega o estilo de fonte utilizado no css -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"/> 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="icon" type="image/png" href="./assets/icone.png" /> <!-- insere a o icone da pagina -->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" /> <!-- carrega os icones utilizados na pagina -->
+        <link rel="stylesheet" href="./style.css"/> <!-- carrega o css -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>   <!-- carrega as modifocações feitas nos icones no css -->
+        <title>Age Calculator</title>
+
+    </head>
+
+    <body>   <!-- carrega o contéudo da pagina -->
+        <header>  <!-- carrega o cabeçario da pagina -->
+        <h1>VERIFICADOR DE IDADE</h1>   <!-- titulo do contéudo exibido na pagina web -->
+        </header>
+        <section>
+
+            <div>
+                <p>Ano de Nascimento
+                    <input type="number" name="txtano" id="txtano" min="0"> <!-- caixa de escrita (soemente numeros) -->
+                </p>
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="masc" checked> <!-- caixa de marcação -->
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <p>
+                    <input type="button" value="Verificar" id="button" onclick="verificar()"> <!-- Butão verificar -->
+                </p>
+            </div> 
+            <div id="res"> <!-- Texto a ser editado pelo js -->
+                Preencha os dados acima para ver o resultado!
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Exercício</p> <!-- Pequena referencia -->
+        </footer>
+        <script src="./index.JS"></script>  <!-- carrega o JS no HTML -->
+    </body>
+ </html>

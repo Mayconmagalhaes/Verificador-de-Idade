@@ -1,0 +1,114 @@
+/* Importação de fontes da Biblioteca Google - Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* Resert da s modificações feitas pelo HTML automaticamnete */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+}
+
+/* Estilização do Corpo da pagina */
+body {
+
+    background: url('./assets/Fundo.png')no-repeat; /* Carrega uma imagem de fundo*/
+    background-position: center;  /* define uma posição para a imagem*/
+    background-size: cover ; /* define um tamanho para a imagem*/
+    min-height: 100vh; /* define a largura de elemento */
+    height: 100vh; /* Altura */
+    width: 100%; /* largura */
+    font-family: "Times New Roman"; /* fonte utilizada */
+}
+
+header {
+    color:black; /* cor da fonte */
+    font-size: 40px; /* tamanho da fonte */
+    text-align: center; /* posição do texto */
+    margin-top: 126px; /* espaçamento da margem topo */
+    margin-bottom: 20px; /* espaçamento da margem abaixo */
+}
+
+/* estilização da caixa */
+section { 
+    background:transparent; /* caixa definida como transparente */
+    backdrop-filter: blur(15px); /* filtro de borrão atrás da caixa */
+    border: 5px solid #C5B88B;
+    width: 1175px;
+    height: 775px;
+    box-shadow: 3px 0 10px rgba(0,0,0.5); /* sombra da caixa */
+    padding: 15px; /* Espaçamento interno */
+    border-radius: 50px; /* definição do raio circular da caixa */
+    margin: auto; /* margem da caixa */
+}
+
+/* estilização do texto */
+p {
+    color: black; /* cor da fonte */
+    font-size: 55px; /* tamanho da fonte */
+    margin-top: 12px; /* espaçamento da margem topo */
+    margin-left: 10px; /* espaçamento da margem z esquerda */
+    font-weight: Bold; /* espessura da fonte */
+}
+
+/* estilização da caixa de numeros */
+#txtano{
+    background:transparent;
+    color: black;
+    border: 5px solid #C5B88B;
+    font-weight: Bold;
+    border-radius: 10px;
+    font-size: 55px;
+    height: 63px;
+    box-shadow: 3px 0 10px rgba(0,0,0.5);
+    width: 159px;
+    padding-left: 15px; /* Espaçamento interno somente para a esquerda */
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+/* estilização do butão */
+#button{
+    color:#000000;
+    background: #5a6fc3;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    width: 165px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 12px;
+    cursor: pointer; /* Mudança do cursor */
+    box-shadow: 3px 0 10px rgba(0,0,0.5);
+}
+
+/* estilização do texto de resposta */
+#res{
+    color: black;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: Bold;
+}
+
+/* estilização da referencia */
+footer {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin: 40px;
+    font-size: Bolder;
+}
+
+img {
+    width: 365px;
+    height: 365px;
+    border-radius: 285px;
+    text-align: center;
+    margin-top: 20px;
+}
+
